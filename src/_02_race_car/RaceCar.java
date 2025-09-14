@@ -37,7 +37,7 @@ public class RaceCar {
 	
 	/**
 	 * Checks if car need a pit stop
-	 * @return needsPitStop
+	 @return needsPitStop
 	 */
 	boolean isDamaged() {
 		return damaged;

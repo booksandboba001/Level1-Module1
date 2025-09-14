@@ -13,7 +13,7 @@ import javax.swing.Timer;
 import game_tools.Game;
 import game_tools.GameScene;
 
-public class AsteroidsGame implements GameScene, ActionListener {
+public class AsteroidsGame implements GameControlScene, ActionListener {
 
 	/*
 	 * 1. In Java a constructor is a special method used to initialize objects If a
@@ -85,7 +85,6 @@ public class AsteroidsGame implements GameScene, ActionListener {
 		}
 	}
 
-	@Override
 	public void draw(Graphics g) {
 		g.setColor(Color.BLACK);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
