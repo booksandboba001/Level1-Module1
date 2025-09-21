@@ -30,6 +30,6 @@ public class Vault {
 			check++;
 			System.out.println(check);
 		}
-		JOptionPane.showMessageDialog(null, "Your agent craked the code");
+		JOptionPane.showMessageDialog(null, "Your agent cracked the code");
 	}
 }

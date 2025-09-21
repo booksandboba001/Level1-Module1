@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -11,7 +12,7 @@ import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
 import game_tools.Game;
-import game_tools.GameScene;
+import game_tools.GameControlScene;
 
 public class AsteroidsGame implements GameControlScene, ActionListener {
 
@@ -147,6 +148,12 @@ public class AsteroidsGame implements GameControlScene, ActionListener {
 			rof.stop();
 		}
 
+	}
+
+	@Override
+	public void keyPressed(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
